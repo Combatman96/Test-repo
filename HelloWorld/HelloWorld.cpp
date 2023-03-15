@@ -2,6 +2,9 @@
 
 int main(int argc, char const *argv[])
 {
-    printf("%s\n", "Hello World");
+    int a = 12;
+    int b = 22;
+    int c = a + b;
+    printf("%d\n", c);
     return 0;
 }
