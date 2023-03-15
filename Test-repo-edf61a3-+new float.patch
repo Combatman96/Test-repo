@@ -1,0 +1,23 @@
+From edf61a3779a6d8f431c15ca1d15bb5a0842fb7ab Mon Sep 17 00:00:00 2001
+From: "chuong.phamtien" <>
+Date: Wed, 15 Mar 2023 14:01:06 +0700
+Subject: [PATCH] +new float
+
+---
+ HelloWorld/HelloWorld.cpp | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/HelloWorld/HelloWorld.cpp b/HelloWorld/HelloWorld.cpp
+index 81d25eb..4999053 100644
+--- a/HelloWorld/HelloWorld.cpp
++++ b/HelloWorld/HelloWorld.cpp
+@@ -6,5 +6,6 @@ int main(int argc, char const *argv[])
+     int b = 22;
+     int sum = 2 * a + b;
+     printf("%d\n", sum);
++    float x = 0.1f;
+     return 0;
+ }
+-- 
+2.39.1.windows.1
+
